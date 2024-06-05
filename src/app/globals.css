@@ -31,3 +31,29 @@ body {
     text-wrap: balance;
   }
 }
+
+/* custom-scrollbar.css */
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;  /* Width for vertical scrollbar */
+  height: 12px; /* Height for horizontal scrollbar */
+}
+
+/* Style of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #000000;  /* Background color of the track */
+     
+}
+
+/* Style of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #000000; /* Color of the thumb */
+  border-radius: 10px;    /* Roundness of the thumb */
+  border: 3px solid #000000; /* Padding around the thumb */
+}
+
+/* Style of the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;  /* Color of the thumb on hover */
+}
