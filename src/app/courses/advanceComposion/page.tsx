@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Image from 'next/image'
 function page() {
-  function MusicIcon(props) {
+  function MusicIcon(props: any) {
     return (
       <svg
         {...props}
@@ -24,7 +24,7 @@ function page() {
     );
   }
 
-  function HeadphonesIcon(props) {
+  function HeadphonesIcon(props: any) {
     return (
       <svg
         {...props}
@@ -43,7 +43,7 @@ function page() {
     );
   }
 
-  function CalendarIcon(props) {
+  function CalendarIcon(props: any) {
     return (
       <svg
         {...props}
