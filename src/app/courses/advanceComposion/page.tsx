@@ -304,7 +304,7 @@ function page() {
                 designed to provide the best possible learning environment for
                 our students. From our soundproof practice rooms and recording
                 studios to our high-quality instruments and audio equipment,
-                we've invested in the resources necessary to help you reach your
+                we&#39;ve invested in the resources necessary to help you reach your
                 full potential as a musician.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-start space-y-4 sm:space-y-0 sm:space-x-4">

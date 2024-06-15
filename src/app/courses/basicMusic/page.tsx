@@ -8,7 +8,7 @@ export default function Component() {
   return (
     <>
       <LampContainer>
-        <motion.dev
+        <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
@@ -31,7 +31,7 @@ export default function Component() {
           >
             Explore Now
           </Link>
-        </motion.dev>
+        </motion.h1>
         
       </LampContainer>
       <section className="py-12 md:py-24 lg:py-32 bg-slate-400">
